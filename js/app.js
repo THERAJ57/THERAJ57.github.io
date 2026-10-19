@@ -195,7 +195,7 @@
         '<h2 class="display">TO BE CONTINUED…</h2>'+
         '<p class="role">Raj Porwal · Lead AI Engineer &amp; Team Manager</p>'+
         '<div class="endcard-actions">'+
-          '<a class="cta-btn" style="padding:13px 24px;font-size:14px" href="https://www.linkedin.com/in/raj-porwal-575g" target="_blank" rel="noopener">LinkedIn ↗</a>'+
+          '<a class="cta-btn" style="padding:13px 24px;font-size:14px" href="https://www.linkedin.com/in/raj-porwal57" target="_blank" rel="noopener">LinkedIn ↗</a>'+
           '<a class="cta-ghost" href="https://github.com/THERAJ57" target="_blank" rel="noopener">GitHub ↗</a>'+
           '<a class="cta-ghost" href="assets/raj-porwal-resume.pdf" target="_blank" rel="noopener">Resume ↓</a>'+
         '</div>'+
