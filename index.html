@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Raj Files · Raj Porwal</title>
+<meta name="description" content="Raj Porwal · AI Agent Engineer. A streaming-inspired portfolio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- ============ SCREEN 1: TITLE CARD ============ -->
+  <section id="screen-title" class="screen active" aria-label="Title card">
+    <div class="title-layout">
+      <div class="title-text">
+        <p class="eyebrow">S SERIES ORIGINAL</p>
+        <h1 class="display mega-title">THE RAJ <span class="accent">FILES</span></h1>
+        <p class="title-tagline mono">AI AGENT ENGINEER · RESEARCHER · CS ENGINEER · FULLSTACK DEVELOPER</p>
+        <button id="playBtn" class="play-btn" aria-label="Play intro">
+          <span class="play-icon">▶</span>
+          <span>Play</span>
+        </button>
+      </div>
+      <div class="title-photo-panel">
+        <img src="assets/raj-photo-crop.jpg" alt="Raj Porwal" class="title-photo">
+        <div class="title-photo-fade-left"></div>
+        <div class="title-photo-fade-bottom"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SCREEN 2: MAIN APP ============ -->
+  <section id="screen-main" class="screen" aria-label="Portfolio">
+    <nav class="topbar">
+      <div class="logo">
+        <div class="mark">R</div>
+        <div class="name">THE RAJ FILES</div>
+      </div>
+      <div class="navlinks">
+        <a href="#episodes" data-nav="episodes">Episodes</a>
+        <a href="#skills" data-nav="skills">Skills</a>
+        <a href="#ventures" data-nav="ventures">Ventures</a>
+        <a href="#about" data-nav="about">About</a>
+      </div>
+      <div class="nav-right">
+        <a class="cta-btn" id="navResumeBtn" href="assets/raj-porwal-resume.pdf" target="_blank" rel="noopener">Resume ↓</a>
+      </div>
+    </nav>
+
+    <main id="content-root"><!-- rendered by js/app.js --></main>
+  </section>
+
+  <!-- ============ ABOUT ME MODAL ============ -->
+  <div id="aboutModal" class="modal-overlay" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="aboutModalTitle">
+      <button class="modal-close" id="aboutModalClose" aria-label="Close">✕</button>
+      <p class="eyebrow">OFF THE RECORD</p>
+      <h3 id="aboutModalTitle" class="display modal-title">About Me</h3>
+      <p class="modal-body">I grew up in Parbhani, Maharashtra, in a family with a background in business, not engineering. I finished my SSC in 2018, then moved to Kota for JEE preparation, finishing my CBSE boards there in 2020 right as COVID hit. That cost me a year. I used it to regroup, and in 2021 I got into VIT Vellore. That's where the rest of this story begins.</p>
+    </div>
+  </div>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
